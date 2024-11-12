@@ -2,16 +2,18 @@
 import streamlit as st
 from ACTlib01 import *
 
-b = input("Digite valor da base do triângulo: ")
-b = float(b)
 
-h = input("Digite valor da altura do triângulo: ")
-h = float(h)
+#b = input("Digite valor da base do triângulo: ")
+#b = float(b)
+
+#h = input("Digite valor da altura do triângulo: ")
+#h = float(h)
 
 # area = b * h / 2
 # print("A área do triângulo é: ", area)
 area = AreaTriangulo (5, 6)
 print("A área do triângulo é: ", area)
+
 
 #url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQFwxxM13bxUC0dpyd0w0PxfZIrJ-hp4Px-R6rsTiG3c3n-89JApzA0jYJpU9vNfxeNCvtJ0Cg35KtO/pub?gid=556192647&single=true&output=csv"
 #db = Ler_GooglePlanilha(url)
