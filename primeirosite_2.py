@@ -64,8 +64,6 @@ def main():
         if not balancas:
             st.warning("Nenhuma balança cadastrada para exibir nos gráficos.")
         else:
-            modelos = [b["modelo"] for b in balancas]
-            quantidades = [b["quantidade"] for b in balancas]
             Grafico_Barra_Horizontal(modelos, quantidades, Largura=8, Altura=5, Titulo_Grafico="Estoque de Balanças", Titulo_x="Quantidade", Titulo_y="Modelos")
 
 if __name__ == "__main__":
